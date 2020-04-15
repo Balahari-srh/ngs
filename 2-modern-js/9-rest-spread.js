@@ -10,7 +10,7 @@ const data = {
 const { temp1, temp2, ...person } = data;
 
 const newArray = [...restOfItems];
-
+/// these are shallow copies
 const newObject = {
   ...person,
 };
